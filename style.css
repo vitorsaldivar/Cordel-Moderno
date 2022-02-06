@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@700&family=Sriracha&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Sriracha', cursive;
+    font-size: 3.5vw;
+}
+
+header {
+    background-color: black;
+    color: white;
+    font-family: 'Passion One', cursive;
+    text-align: center;
+}
+header>h1 {
+    padding-top: 50px;
+    font-size: 10vw;
+    /*text-transform: uppercase; com o font variant consigo deixar tudo maiusculo mas ainda com a primeira letra maior*/ 
+    font-variant: small-caps;
+}
+
+header>p {
+    font-size: 1.3vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+header a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+header a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    padding-bottom: 10vh;
+}
+section#img01 {
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-image: url(imagens/background001.jpg);
+}
+section#img02 {
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-image: url(imagens/background002.jpg);
+}
+section p.with-img {
+    background-color: #00000049;
+    display: inline-block;
+    color: white;
+    margin-top: 70px;
+    text-shadow: 1px 1px 0 black;
+}
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    font-size: .4em;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
